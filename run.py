@@ -8,7 +8,6 @@ import sys, os
 def usage():
 	print '-create_db'
 	print '-up'
-	print '-migrate_db'
 if len(sys.argv) != 2:
 	usage()
 else:
